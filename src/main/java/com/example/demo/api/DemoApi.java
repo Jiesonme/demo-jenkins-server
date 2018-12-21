@@ -10,6 +10,7 @@ public class DemoApi {
 	
 	@GetMapping("test")
 	public String getTesty() {
+		System.out.println("这是一个demo!");
 		return "HELLOW WORD";
 	}
 
