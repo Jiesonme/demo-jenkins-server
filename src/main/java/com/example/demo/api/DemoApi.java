@@ -13,5 +13,12 @@ public class DemoApi {
 		System.out.println("这是一个demo!");
 		return "HELLOW WORD";
 	}
+	
+	@GetMapping("jenkins")
+	public String jenkins(String jenkins) {
+		String str = "这是一个jenkins demo!"+jenkins;
+		System.out.println(str);
+		return str;
+	}
 
 }
