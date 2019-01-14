@@ -8,6 +8,7 @@ public class DemoJenkinsServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoJenkinsServerApplication.class, args);
+		System.out.println("当前时间戳="+System.currentTimeMillis());
 	}
 
 }
